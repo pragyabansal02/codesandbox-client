@@ -8,7 +8,7 @@ import getTemplateDefinition from '@codesandbox/common/lib/templates';
 import codesandbox from '@codesandbox/common/lib/themes/codesandbox.json';
 import getVSCodeTheme from 'app/src/app/pages/Sandbox/Editor/utils/get-vscode-theme';
 
-import NewSandbox from './NewSandbox';
+import { CreateSandbox } from 'app/components/CreateNewSandbox/CreateSandbox';
 import PreferencesModal from './PreferencesModal';
 import DeleteSandboxModal from './DeleteSandboxModal';
 import DeleteDeploymentModal from './DeleteDeploymentModal';
@@ -44,7 +44,7 @@ const modals = {
     width: 900,
   },
   newSandbox: {
-    Component: NewSandbox,
+    Component: CreateSandbox,
     width: 950,
   },
   share: {
