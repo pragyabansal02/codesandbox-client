@@ -283,7 +283,7 @@ jobs:
       - checkout_with_cache
       - test_integrations
   test-jest:
-    executor: node
+    executor: atom
     steps:
       - checkout_with_cache
       - test_jest
