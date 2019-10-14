@@ -307,7 +307,7 @@ jobs:
 ################################
 
 workflows:
-  version: 2
+  version: 4
   build-and-test:
     jobs:
       - build-deps
